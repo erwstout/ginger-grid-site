@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Lato:400,700');
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Francois One', sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+a{
+  color: #C53A33;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background: #111;
+  width: 100%;
+}
+
+.bar{
+  display: block;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 8px;
+  background-color: #C53A33;
+  z-index: 9999;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.content-column{
+  padding-top: 25px;
+}
+
+pre{
+  background: #272822;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+code{
+  //background: #272822;
+  color: #C53A33;
+  padding: 0 5px;
+}
+
+pre code{
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  color: white;
+}
