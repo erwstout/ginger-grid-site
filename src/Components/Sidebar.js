@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import '../Styles/Sidebar.css';
 
 class Sidebar extends Component {
@@ -20,49 +21,49 @@ class Sidebar extends Component {
             <div className="col-12 sidebar--row">
               <ul className="sidebar">
                 <li>
-                  <a href="/installation/">
+                  <Link to="/installation/">
                     Installation
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/settings/">
+                  <Link to="/settings/">
                     Settings
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/containers/">
+                  <Link to="/containers/">
                     Containers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/rows/">
+                  <Link to="/rows/">
                     Rows
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/columns/">
+                  <Link to="/columns/">
                     Columns
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/block-grids/">
+                  <Link to="/block-grids/">
                     Block Grids
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/visibility-classes/">
+                  <Link to="/visibility-classes/">
                     Visibility Classes
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/offsets/">
+                  <Link to="/offsets/">
                     Offsets
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/extras/">
+                  <Link to="/extras/">
                     Extras
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="https://github.com/erwstout/ginger/issues">
