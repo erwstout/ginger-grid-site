@@ -64,4 +64,7 @@
   .sidebar--row{
     position: relative;
   }
+  .sidebar{
+    top: 0;
+  }
 }
