@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Match } from 'react-router';
+import {
+  BrowserRouter as Router,
+  StaticRouter, // for server rendering
+  Route,
+  Link
+  // etc.
+} from 'react-router-dom';
 
 import Home from './Home';
 import Settings from './Components/Settings';
@@ -17,28 +23,28 @@ import './index.css';
 import './Styles/ginger.css';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
     <div className="GingerGrid">
       <main className="container">
         <div className="row row--justify-content-center">
           <Sidebar />
           <article className="col-7 content-column">
-            <Match exactly pattern="/" component={Home} />
-            <Match pattern="/home" component={Home} />
-            <Match pattern="/installation" component={Home} />
-            <Match pattern="/settings" component={Settings} />
-            <Match pattern="/columns" component={Columns} />
-            <Match pattern="/containers" component={Containers} />
-            <Match pattern="/rows" component={Rows} />
-            <Match pattern="/block-grids" component={BlockGrids} />
-            <Match pattern="/visibility-classes" component={VisibilityClasses} />
-            <Match pattern="/offsets" component={Offsets} />
-            <Match pattern="/extras" component={Extras} />
+            <Route exact path="/" component={Home} />
+            <Route path="/home" component={Home} />
+            <Route path="/installation" component={Home} />
+            <Route path="/settings" component={Settings} />
+            <Route path="/columns" component={Columns} />
+            <Route path="/containers" component={Containers} />
+            <Route path="/rows" component={Rows} />
+            <Route path="/block-grids" component={BlockGrids} />
+            <Route path="/visibility-classes" component={VisibilityClasses} />
+            <Route path="/offsets" component={Offsets} />
+            <Route path="/extras" component={Extras} />
           </article>
         </div>
       </main>
     </div>
 
-  </BrowserRouter>,
+  </Router>,
   document.getElementById('root')
 );

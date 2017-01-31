@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import {
+  Link
+} from 'react-router-dom';
 import '../Styles/Sidebar.css';
 
 class Sidebar extends Component {
@@ -10,10 +12,10 @@ class Sidebar extends Component {
           <div className="row">
             <div className="col-12 sidebar--row">
               <div className="logo-container">
-                <img src="http://gingergrid.com/ginger-head.png" alt="Ginger" />
+                <img src="https://gingergrid.com/ginger-head.png" alt="Ginger" />
               </div>
               <div className="ginger-type">
-                <img src="http://gingergrid.com/ginger-type.png" alt="Ginger" />
+                <img src="https://gingergrid.com/ginger-type.png" alt="Ginger" />
               </div>
             </div>
           </div>
