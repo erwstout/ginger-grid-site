@@ -2,7 +2,7 @@
   "name": "ginger-grid-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gingergrid.com",
+  "homepage": "http://gingergrid.com",
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
