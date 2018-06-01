@@ -1,6 +1,6 @@
 {
   "name": "ginger-grid-site",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://gingergrid.com",
   "devDependencies": {

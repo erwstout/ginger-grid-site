@@ -2,10 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
-  StaticRouter, // for server rendering
-  Route,
-  Link
-  // etc.
+  Route
 } from 'react-router-dom';
 
 import Home from './Home';
