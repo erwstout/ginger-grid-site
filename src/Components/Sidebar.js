@@ -4,6 +4,9 @@ import {
 } from 'react-router-dom';
 import '../Styles/Sidebar.css';
 
+import GingerHead from '../Assets/img/ginger-head.png';
+import GingerType from '../Assets/img/ginger-type.png';
+
 class Sidebar extends Component {
   render() {
     return (
@@ -12,10 +15,10 @@ class Sidebar extends Component {
           <div className="row">
             <div className="col-12 sidebar--row">
               <div className="logo-container">
-                <img src="https://gingergrid.com/ginger-head.png" alt="Ginger" />
+                <img src={GingerHead} alt="Ginger" />
               </div>
               <div className="ginger-type">
-                <img src="https://gingergrid.com/ginger-type.png" alt="Ginger" />
+                <img src={GingerType} alt="Ginger" />
               </div>
             </div>
           </div>
